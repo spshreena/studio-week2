@@ -4,7 +4,7 @@ Last week we learned how to set up web pages and embed some pre-existing maps. T
 ### A few notes on these tutorials
 1. The images in many of these tutorials are slides from our good friends at [Mapbox](https://www.mapbox.com/), who we're working with to develop these tutorials. The slides have instructions on them and show code that you will use to create your maps. In most cases, we've also created a code-block below the slide to call out the code you need to focus on.
 2. Some of the slides have discussion or question prompts that we may have used in class, but since we're online, we'll use them as discusssion prompts during our class meetings or in our Slack group. 
-3. Most of you who took my programming class have already seen comments in Python, `# which that look like this`. As we start to create web pages using HTML and web maps that often you JavaScript, you should be familiar with comments in those language as well. `<! -- Comments in HTML that look like this -->` and comments in Javascript `// use two slashes like this.` In excercise 4, specifically, you will only have the comment in an HTML page as guidance, so keep a sharp eye out!
+3. Most of you who took my programming class have already seen comments in Python, `# that look like this`. As we start to create web pages using HTML and web maps that often you JavaScript, you should be familiar with comments in those language as well. `<! -- Comments in HTML that look like this -->` and comments in Javascript `// use two slashes like this.` In excercise 4, specifically, you will only have the comment in an HTML page as guidance, so keep a sharp eye out!
 4. You need an active Mapbox account!
 
 ## Expected Outputs for this week / what to submit: 
