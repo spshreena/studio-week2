@@ -72,6 +72,7 @@ body{
      */
    
     var popup = new mapboxgl.Popup({offset: popupOffsets, className: "my-class"})
+     .setLngLat([-122.4700, 37.8011])
       .setHTML("<b>The Presidio.</b><br /> Explore to find a drinking fountain!")
       .addTo(map);
 
