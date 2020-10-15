@@ -8,28 +8,18 @@
     <!-- Add in the Mapbox GL JS CSS file -->
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
     <!-- Add styling info for the map -->
-    <link rel="stylesheet" href="styles.css"> 
-    <h1><style type='text/css'>
-body{
- color:	#000080;
- background-color: 	#f9f9f9}
-</style><h1>
-  
-  <div id='mapId'></div>
-  <style type="text/css">
-    #mapId {
-      height: 600px;
+    <style>
+         #mapId {
+      height: 400px;
+      width: 800px;
     }
-      </style>  
+    </style>
     <!-- Adding styling info for page layout by reading in a CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <h1>Studio Week 2 <br> Custom Style with Mapbox GL JS </h1>
-  <h1><style type='text/css'>
-body{
- color:	#000080;
- background-color: 	#f9f9f9}
   <!-- Add multiple pages to web page-->
   <!-- active class displays the grey box around current page-->
   <ul>
@@ -45,7 +35,7 @@ body{
 
     <script>
     // Set your Mapbox access token
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic3B5YWt1cmVsIiwiYSI6ImNrZWhmM21oYTFkY3EyemxnMjg2N3FmNTEifQ.GPQgzkr-REarSzyMDcf8Cg';
+    mapboxgl.accessToken = "pk.eyJ1Ijoic3B5YWt1cmVsIiwiYSI6ImNrZWhmM21oYTFkY3EyemxnMjg2N3FmNTEifQ.GPQgzkr-REarSzyMDcf8Cg";
 
     /* The map variable stores a new mapbox gl map.
     * map's center set to [-122.467, 37.798] with zoom 13.
@@ -56,8 +46,8 @@ body{
     var map = new mapboxgl.Map({
     center:  [-122.467, 37.798],
     zoom: 13,
-    style: 'mapbox://styles/spyakurel/ckg8rqs4u0nkd19oanycvvy54',
-    container: 'mapId'
+    style: "mapbox://styles/spyakurel/ckg8rqs4u0nkd19oanycvvy54",
+    container: "mapId"
     });
 
     </script>
